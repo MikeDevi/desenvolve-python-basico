@@ -1,0 +1,9 @@
+Algoritmo TabuadaDo9
+1. Início
+2.   Declare n, primeiroDigito, segundoDigito, resultado: Inteiro
+3.   Leia n
+4.   primeiroDigito <- n - 1
+5.   segundoDigito <- 10 - n
+6.   resultado <- (primeiroDigito * 10) + segundoDigito
+7.   Escreva "O resultado de 9 x", n, "é", resultado
+8. Fim

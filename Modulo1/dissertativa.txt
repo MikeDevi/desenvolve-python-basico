@@ -1,0 +1,17 @@
+Entrada: O valor de n é fornecido pelo usuário.
+
+Processamento: O primeiro dígito do resultado é n − 1.
+
+O segundo dígito do resultado é 10 − n.
+
+O resultado final é obtido multiplicando o primeiro dígito por 10 e somando o segundo dígito.
+
+Saída: O resultado da multiplicação 9 × n é exibido.
+
+Por exemplo, para n=7:
+
+Primeiro dígito: 7 − 1 = 6.
+
+Segundo dígito: 10 − 7 = 3.
+
+Resultado: 6 × 10 + 3 = 63
