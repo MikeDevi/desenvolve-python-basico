@@ -6,7 +6,7 @@ ratos = 0
 coelhos = 0
 sapos = 0
 
-for n in range(qtd_exp):
+for n  in range(qtd_exp):
     tip_cobaia = input(f'Informe o tipo de cobaia : \n Sapo = S, Rato = R, C = Coelho ')
     qtd_cobaia = int(input(f'Digite a quantidade de cobaias '))
     n =+ 1
