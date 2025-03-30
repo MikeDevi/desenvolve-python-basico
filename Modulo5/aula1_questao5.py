@@ -19,7 +19,7 @@ def mostra_emojis():
         
 def emojizar_frase():
     frase = input('Digite uma frase para ser emojizada: ("Ex Ola mundo! :red_heart:) ')
-    frase_c_emoji = emoji.emojize(frase, language='alias')
+    frase_c_emoji = emoji.emojize(frase, language='alias') # Corresponde ao padão de códigos :red_heart: = padrão de código "alias"
     return frase_c_emoji
 
 def main():
