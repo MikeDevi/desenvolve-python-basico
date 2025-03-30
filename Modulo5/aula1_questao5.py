@@ -17,7 +17,7 @@ def mostra_emojis():
     for cod, emoji in emojis.items():
         print(f'{emoji} - {cod}')
         
-def emojizar_fraze():
+def emojizar_frase():
     frase = input('Digite uma frase para ser emojizada: ("Ex Ola mundo! :red_heart:) ')
     frase_c_emoji = emoji.emojize(frase, language='alias')
     return frase_c_emoji
@@ -25,7 +25,7 @@ def emojizar_fraze():
 def main():
     print('-- Conversor de frase em emojis ---')
     mostra_emojis()
-    frase_final = emojizar_fraze()
+    frase_final = emojizar_frase()
     print(f'Frase com emoji \n {frase_final}')
     
 if __name__ == "__main__":
