@@ -5,7 +5,7 @@ n = 0
 dominio = []
 
 for url in URLs:
-    url = url[n][3::-3]
+    url = url.split('.')[-2]
     dominio.append(url)
     n =+ 1
 
